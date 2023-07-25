@@ -52,10 +52,10 @@ $config['timeZone'] =  $_ENV['TIMEZONE'];
 | Database to Store User Data
 |
 */
-$config['db']['hostname'] =  $_ENV['sql7.freesqldatabase.com'];
-$config['db']['username'] =  $_ENV['sql7634943'];
-$config['db']['password'] =  $_ENV['S4wMz5s1av'];
-$config['db']['database'] =  $_ENV['sql7634943'];
+$config['db']['hostname'] =  $_ENV['localhost'];
+$config['db']['username'] =  $_ENV['seninpan_eren'];
+$config['db']['password'] =  $_ENV['Eren14531453'];
+$config['db']['database'] =  $_ENV['seninpan_eren'];
 
 /*
 |--------------------------------------------------------------------------
@@ -66,7 +66,7 @@ $config['db']['database'] =  $_ENV['sql7634943'];
 | Value is in Seconds. "20" = 20seconds
 |
 */
-$config['anti_spam_timer'] =  $_ENV['ANTISPAM_TIMER'];
+$config['anti_spam_timer'] =  $_ENV['20'];
 
 /*
 |--------------------------------------------------------------------------
